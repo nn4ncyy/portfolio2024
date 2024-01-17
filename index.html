@@ -1,16 +1,222 @@
+<!-- 
+    CMPT 315 ASSIGNMENT #1 
+    Nancy Dinh
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>My First Site</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-    <div>
-        <h1>I'm Nancy Dinh!</h1>
-        <p>Now let's conquer the world!!</p>
-        <button>Click Me</button>
-    </div>
-    <script src="script.js" type="text/javascript"></script>
-</body>
+    <head>
+        <title>About Nancy Dinh</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <!-- this is the nav bar -->
+        <div id ="header">
+            <div>
+                    <ul> <!-- unordered list -->
+                        <li><a href="#music">music</a></li>
+                        <li><a href="#movies">movies</a></li>
+                        <li><a href="#books">books</a></li>
+                        <li><a href="#">home</a></li>
+                    </ul>
+            </div>
+        </div>
+        <!-- this is the home page -->
+        <div class = "aboutme">
+            <div class="image">
+                <img src ="cats.jpeg" alt="cats">
+            </div>
+            <div class = "about"> 
+                <h1>I'm Nancy Dinh!</h1>
+                <p>It's nice to meet you. I'm a Computer Science student in my last year.
+                I've spent the majority of my degree exploring all sectors of the
+            tech world, but I think I especially like the world of game development.
+            Use this site to learn a bit more about my interests!</p>
+            <div id = "socials" >
+                <div id = "spotify" class = "image">
+                    <a target="_blank" href="https://open.spotify.com/user/nancy.dinh?si=2da37a6cebeb4598"><img src ="spotify.jpeg" alt="spotify"/></a>
+                </div>
+                    
+                <div id = "linked" class = "image">
+                    <a target="_blank" href="https://www.linkedin.com/in/nancy-dinh-1b186913b/"><img src ="linkedIn.jpeg" alt="linked"/></a>
+                </div>
+
+                <div id="git" class = "image">
+                    <a target="_blank" href="https://github.com/nn4ncyy"><img src ="github.jpeg" alt="git"/></a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- this is the books section -->
+        <section>
+            <div id = "books"></div>
+            
+
+                <div class = "sects">
+                    <h1>my favourite book</h1>
+                    
+                </div>
+                <div class = "container">
+                    <div class = "about">
+                   
+                        <h2>No Longer Human by Osamu Dazai</h2>
+                        <p>
+                            My favourite genre of books is literary fiction, and this book falls in that
+                        category. No Longer Human follows a protagonist who is alienated from society, the original
+                        Japanese title is literally translated as "disqualified from being human". <br><br>
+                        This is my current favourite book because more than any  horror literature, the way Dazai writes 
+                        about the human experice of desolate isolation is terrifying. It so greatly delves into the human psyche
+                        and explores the scary descent into self destruction. 
+                        </p>
+                    </div>
+                    <div class="image">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=8TzH0ayIcdo&t=520s&pp=ygUZd2VuZGlnb29uIG5vIGxvbmdlciBodW1hbg%3D%3D"><img src ="noLongerHuman.jpg" alt="noLongerHuman"></a>
+                    </div>
+                    
+                    
+                </div>
+                
+
+            
+        </section>
+
+        <!-- this is the movies section -->
+        <section>
+
+            <div id = "movies"></div>
+        
+            <div class = "sects">
+                <h1>my favourite movies</h1>
+                <div><p>scroll to see my current top 3 movies.</p></div>
+                
+            </div>
+            
+            <div class="container">
+                
+                <div class = "about">
+                   
+                    <h2>Us and Them (2018)</h2>
+                    <p>
+                        My rating: 10/10 <br><br>
+                        Us and Them follows a couple and their trials and tribulations that
+                        ultimately causes them to drift apart. Some years later, they run
+                        into each other and reminisce on what went wrong. <br>
+                        This is one of my favourite movies becauses it depicts the realities of life
+                        and the realities of relationships. It depicts the rawness of love and human emotion.
+                    </p>
+                </div>
+                <div class="image">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Us_and_Them_(film)"><img src ="UsandThem.jpg" alt="UsandThem"></a>
+                </div>
+
+            </div>
+            <div class="container">
+                
+                
+                <div class="image">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/La_Haine"><img src ="lahaine.jpg" alt="lahaine"/></a>
+                </div>
+                <div class = "about">
+                   
+                    <h2>La Haine (1995)</h2>
+                    <p>
+                        My rating: 10/10 <br><br>
+                        This movie is a masterpiece when it comes to cinematography, pacing, 
+                        concepts, casting, and plot. It deals with major themes of class inequality, 
+                        racism, police brutality, and companionship. It breaks down class through art while 
+                        perfectly portraying the unique experience of youth culture. <br> La Haine is imaginary, 
+                        brutal, honest, harsh, and so, so meaningful.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="container">
+                
+                <div class = "about">
+                   
+                    <h2>Everything Everywhere All At Once (2022)</h2>
+                    <p>
+                        My rating: 10/10 <br><br>
+                        Children of immigrants will understand what I'm saying when I say this movie
+                        heartwrenching. This movie leaves me actually gobsmacked as it deals with themes of
+                        optimistic nihilism mixed with intergenerational trauma in an explosive and 
+                        meticulously crafted masterpiece.
+                        It's funny, sad, action-packed, confusing, beautiful, and hopeful.
+                    </p>
+                </div>
+                <div class="image">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once"><img src ="eeaao.jpg" alt="eeaao"></a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- this is the music section -->
+        <section>
+            <div id = "music"></div>
+            <div class = "sects">
+                <h1>my favourite music right now</h1>
+                <p> scroll to see what I'm listening to</p>
+            </div>
+            
+            <div class = myMusic>
+                
+                <div class = "card">
+                    <div class = "image">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=ADPk5PpkjMg&ab_channel=Grimes">
+                            <img src="ArtAngels.jpg" alt = "grimes"/>
+                        </a>
+                        <h3>Butterfly by Grimes (2015)</h3>
+                        <p>This song is so eclectic, fun, and melodic. It's one 
+                            of those songs I associate heavily with a fun time
+                            in my life. I love how whimsical and moving it is!
+                        </p>
+                    </div>
+                </div>
+                <div class = "card">
+                    <div class = "image">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=0kVXTbzkMAs&ab_channel=SarahKinsleyVEVO">
+                            <img src="lovegod.png" alt = "sarah"/>
+                        </a>
+                        <h3>Lovegod by Sarah Kinsley (2023)</h3>
+                        <p>This song is just so epic and fantastical. It takes 
+                            me on a trip throughout the song and is a song that
+                            just evokes so much emotional. Another moving song.
+                        </p>
+                    </div>
+                </div>
+                <div class = "card">
+                    <div class = "image">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=dLzFdcNewKU&ab_channel=YvesTumorVEVO">
+                            <img src="godcircle.jpeg" alt = "yves"/>
+                        </a>
+                        <h3>God Circle by Yves Tumor (2023)</h3>
+                        <p>This song is so crunchy and angsty. It reminds me of
+                            lot of class rock songs but has this huge experimental
+                            twang to it that makes it feel so modern.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class = videos>            
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kFZLeYtvARc?si=AXC9HKxsIw_0mGmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>This is the playlist I often listen to when I am studying or 
+                    reading. It's a compilation of video game music that
+                    plays when the user is fishing. 
+                    It's very nostalgic and when doing school work, 
+                    it gives me the perfect background noise without being distracting.
+                </p>
+            </div>
+        </section>
+
+        <!-- this is the footer -->
+        <div class = "footer">
+            <p>Nancy Dinh | CMPT 315 W2024</p>
+            
+        </div>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
 </html>
