@@ -13,31 +13,30 @@ body {
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
-    color: #FFFFFF;
+ 
   }
   
 .container{
     width:auto;
     margin: auto;
-    padding-left: 170px;
-    padding-right: 150px;
-    padding-top: 80px;
-    padding-bottom: 15px;
-
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     height:0%;
     align-items: center;
     column-gap: 10px;
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 2fr;
+    
     
 }
 
 .sects{
 
 
-    margin-top: 20px;
+    /* margin-top: 20px; */
     position: sticky ;
-    background-color: rgb(246, 240, 243);
     text-align: center;
     z-index: 1;
     top: 50px;
@@ -47,23 +46,26 @@ body {
 
 body {
     /* background-color: rgb(255, 255, 255); */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'serif';
  
 }
 
 h1 {       
     font-size: 40px;
-    font-family: 'Futura';
+    font-family: 'optima';
     color: rgb(60, 47, 54);
    
 }
 h2 {       
     font-size: 30px;
-    font-family: 'Futura';
+    font-family: 'optima';
     color: rgb(60, 47, 54);
+    font-weight: bold;
 }
 h3 {       
-    font-size: 26px;
+    font-size: 22px;
+    font-family: 'optima';
+
     color: rgb(60, 47, 54);
 }
 p {
@@ -72,11 +74,18 @@ p {
 }
 
 img {
-    max-width: 100%;
+    max-width: 95%;
     max-height:100%;
     display: inline;
     
+    
   }
+
+.mainImg{
+    border: 5px solid #555;
+
+}
+
 
 
 .image:hover img {
@@ -86,62 +95,47 @@ img {
 /* this pertains to the nav bar */
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(210, 182, 197);
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 2;
-    
 }
 
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    padding: 20px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+a:link {
     text-decoration: none;
-    font-size: 20px;
-   
+    color: rgb(46, 46, 46);
+}
+a:visited {
+    color: rgb(46, 46, 46);
 }
 
-li a:hover {
-    background-color: rgb(170, 149, 160);
-}
-
+a:hover {
+    color: hotpink;
+  }
 
 /* this pertains to the home page */
 
-.aboutme{
-    width:fit-content;
-    margin: auto;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 75px;
-    padding-bottom: 75px;
-
-    height:0%;
-    align-items: center;
-    column-gap: 10px;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+.content{
+    text-align: left;
     
+    height: 100%;
+    padding-right: 150px;
+    margin-right: 0px;
+    margin-left: 100px;
+    overflow-y: auto;
+}
+
+.fixed
+{
+  float: right;
+  
+  height: 780px;
 
 }
 
 .about{
     text-align: left;
     color: #3f3a32;
-  
+    height: 600px;
     padding: 80px;
 
 }
@@ -155,58 +149,18 @@ li a:hover {
 
 }
 
+#me div{
+    max-width: 70px;
+
+    display: inline-block;
+    align-items:center;
+
+}
+
 /* this pertains to the music section 
     it differs from the container as it has three sections
     rather than two.
 */
 
-.myMusic{
-    width:fit-content;
-    margin: auto;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 15px;
 
 
-    height:0%;
-    align-items: center;
-    column-gap: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-
-.videos{
-    width:auto;
-    margin: auto;
-    padding-left: 160px;
-    padding-right: 160px;
-    padding-bottom: 50px;
-
-    height:0%;
-    align-items: center;
-    column-gap: 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-
-
-.myMusic .card{
-    
-    padding: 15px;
-}
-
-/* this pertains to the footer */
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(178, 225, 240);
-    color: rgb(205, 205, 205);
-    text-align: center;
-    z-index: 1;
-  }
-  
